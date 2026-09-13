@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Akmaral Shyngazy</h1>
+    <h2>Web Technologies: Front-End Development</h2>
+    <p>Group: MT-2505</p>
+
+    <!-- A simple two-column menu and introduction -->
+    <table>
+        <tr>
+            <td>
+                <strong>Explore my page</strong>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#classes">My classes</a></li>
+                    <li><a href="#visitor">Visitor form</a></li>
+                </ul>
+            </td>
+            <td>
+                <strong>Welcome!</strong>
+                <p>Here you can read about my interests and see my class schedule.</p>
+            </td>
+        </tr>
+    </table>
+
+    <h3 id="about">About Me</h3>
+    <img src="photo.jpg" alt="Photo of Akmaral Shyngazy" width="160">
+    <p>Hello! I am Akmaral, a student in group MT-2505. I enjoy dancing, cooking and riding a motorcycle.</p>
+
+    <h3>Things I Enjoy</h3>
+    <ol>
+        <li>Dancing</li>
+        <li>Cooking</li>
+        <li>Riding a motorcycle</li>
+    </ol>
+
+    <h3>My Favorite Websites</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/">YouTube</a> — videos and tutorials</li>
+        <li><a href="https://www.pinterest.com/">Pinterest</a> — ideas and inspiration</li>
+    </ul>
+
+    <h3>How I Feel Today</h3>
+    <p>I feel cheerful 😊, ready to dance 💃 and excited to cook something tasty 🍳.</p>
+    <button type="button">Click Me</button>
+
+    <!-- Weekly class schedule -->
+    <h3 id="classes">My Classes This Week</h3>
+    <p>September 14–20, 2026. Kazakhstan time (UTC+5).</p>
+    <table>
+        <tr>
+            <th scope="col">Subject</th>
+            <th scope="col">Day</th>
+            <th scope="col">Time</th>
+        </tr>
+        <tr><td>Operating Systems and Computer Networks</td><td>Monday</td><td>13:05–14:50</td></tr>
+        <tr><td>Cinematography and Digital Editing</td><td>Monday</td><td>15:00–16:50</td></tr>
+        <tr><td>Screenwriting Basics</td><td>Tuesday</td><td>12:00–13:55</td></tr>
+        <tr><td>Web Technologies 1 (Front-End)</td><td>Wednesday</td><td>14:00–14:50</td></tr>
+        <tr><td>Cinematography and Digital Editing</td><td>Wednesday</td><td>15:00–15:50</td></tr>
+        <tr><td>Operating Systems and Computer Networks</td><td>Wednesday</td><td>17:00–18:50</td></tr>
+        <tr><td>Screenwriting Basics</td><td>Thursday</td><td>10:00–10:50</td></tr>
+        <tr><td>Cinematography and Digital Editing</td><td>Thursday</td><td>11:00–12:50</td></tr>
+        <tr><td>Screenwriting Basics</td><td>Thursday</td><td>15:00–16:50</td></tr>
+        <tr><td>Operating Systems and Computer Networks</td><td>Friday</td><td>11:00–11:50</td></tr>
+        <tr><td>Web Technologies 1 (Front-End)</td><td>Saturday</td><td>17:00–18:50</td></tr>
+    </table>
+
+    <!-- This form demonstrates HTML input types -->
+    <h3 id="visitor">Visitor Form</h3>
+    <form method="get">
+        <p>
+            <label for="visitor-name">Name:</label>
+            <input id="visitor-name" name="name" type="text" required>
+        </p>
+        <p>
+            <label for="visitor-email">Email:</label>
+            <input id="visitor-email" name="email" type="email" required>
+        </p>
+        <p>
+            <label for="visitor-color">Favorite Color:</label>
+            <input id="visitor-color" name="color" type="color" value="#d16b91">
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    <p><a href="#about">Back to About Me</a></p>
+</body>
+</html>
